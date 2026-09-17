@@ -1,0 +1,12 @@
+/* ========================================================
+   GLOBAL TAILWIND STYLES & MOBILE UI OVERRIDES
+   ======================================================== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent rubber-band overscroll on mobile webkit browsers */
+html, body {
+  overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
